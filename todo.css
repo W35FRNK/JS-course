@@ -1,0 +1,48 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.todo_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#todo-title {
+    padding: .5rem;
+    width: 15rem;
+    margin: 1rem 1rem;
+}
+
+#date-picker {
+    padding: .5rem;
+    width: 15rem;
+    margin: 1rem 1rem
+}
+
+.todo_container > button {
+    padding: .5rem;
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+    background-color:rgb(0, 255, 174);
+    color: #333;
+    font-weight: bold;
+}
+
+.todo_container > button:hover {
+    padding: .5rem;
+    width: 10rem;
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+    background-color:rgb(0, 255, 174);
+    color: #333;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+button {
+    background-color: grey;
+    color: #fff;
+}
