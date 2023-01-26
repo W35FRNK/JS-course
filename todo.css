@@ -3,10 +3,24 @@ html {
 }
 
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .todo_container {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 1px #333 dotted;
+    width: 75%;
+    min-height: 50vh;
+}
+
+h2 {
+    margin: 3rem 0rem;
+    font-size: 2rem;
 }
 
 #todo-title {
@@ -18,7 +32,8 @@ html {
 #date-picker {
     padding: .5rem;
     width: 15rem;
-    margin: 1rem 1rem
+    margin: 1rem 1rem;
+    
 }
 
 .todo_container > button {
